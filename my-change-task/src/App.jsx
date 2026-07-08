@@ -4,6 +4,8 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Name from './Name'
 import './App.css'
+import ColorChanger from './ColorChanger'
+import Counter from './Counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,8 @@ function App() {
   return (
     <>
       <Name />
+      <ColorChanger />
+      <Counter />
     </>
   )
 }
