@@ -8,6 +8,7 @@ import StudentCard from './StudentCard'
 import Multiply from './Multiply'
 import Divide from './Divide'
 import Substract from './Substract'
+import ProfileCard from './ProfileCard'
 function App() {
   const [a, setA] = useState(0);
   const [b, setB] = useState(0);
@@ -33,6 +34,13 @@ function App() {
     <Multiply multiply={handleAMultiply} />
     <Divide divide={handleDivide} />
     <Substract a={a} b={b} />
+    <ProfileCard
+    name="Jyoti"
+    role="Java Full Stack Developer"
+    city="Pune"
+    skills={["Java", "React", "Spring Boot"]}
+    />
+
 
     {/* <StudentCard
     name="Jyoti"
