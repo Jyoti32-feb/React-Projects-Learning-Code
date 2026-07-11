@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Student from './Student'
 
 function App() {
   const [uname, setName] = useState("");
@@ -65,6 +66,7 @@ function App() {
         Emp Salary : <input type="text" name="empsalary" placeholder="Salary" value={emp.empsalary} onChange={handleInputs} /><br /><br />
         <button type="submit">Submit</button>
       </form>
+      <Student />
 
       {/* <input type="text" name="uname" value={uname} onChange={handlePrintUname} /><br /><br />
       <p>Name: {uname}</p><br /><br />
