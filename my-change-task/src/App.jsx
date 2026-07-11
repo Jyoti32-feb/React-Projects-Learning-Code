@@ -6,6 +6,7 @@ import Name from './Name'
 import './App.css'
 import ColorChanger from './ColorChanger'
 import Counter from './Counter'
+import CricketScore from './CricketScore'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Name />
       <ColorChanger />
       <Counter />
+      <CricketScore />
     </>
   )
 }
