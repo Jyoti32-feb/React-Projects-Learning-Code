@@ -10,19 +10,21 @@ import CricketScore from './CricketScore'
 import VolumeController from './VolumeController'
 import MoodChanger from './MoodChanger'
 import PasswordLengthChecker from './PasswordLengthChecker'
+import MiniIdCard from './MiniIdCard'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Name />
+      {/* <Name />
       <ColorChanger />
       <Counter />
       <CricketScore />
       <VolumeController />
       <MoodChanger />
-      <PasswordLengthChecker />
+      <PasswordLengthChecker /> */}
+      <MiniIdCard />
     </>
   )
 }
