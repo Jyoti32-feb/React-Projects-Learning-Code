@@ -21,6 +21,10 @@ const CricketScore = () => {
         <button onClick={() => setCount(count + 6)}>
         +6
         </button>
+        <button onClick={() => setCount(count =0)}>
+        Reset
+        </button>
+        <br /><br />
         <p>Current Score: {count}</p>
     </div>
   );

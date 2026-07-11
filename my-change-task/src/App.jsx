@@ -7,6 +7,7 @@ import './App.css'
 import ColorChanger from './ColorChanger'
 import Counter from './Counter'
 import CricketScore from './CricketScore'
+import VolumeController from './VolumeController'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <ColorChanger />
       <Counter />
       <CricketScore />
+      <VolumeController />
     </>
   )
 }
