@@ -13,7 +13,6 @@ function Name() {
     
   return (
     <div>
-      <h1>Hello, World!</h1>
 
       <h3>Name:</h3>
       <input type="text"
@@ -21,7 +20,7 @@ function Name() {
       onChange={changeName}
       />
 
-      <br />
+      
       <h3>Course:</h3>
       <input type="text"
       value={course}

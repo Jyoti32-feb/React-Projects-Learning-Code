@@ -7,7 +7,7 @@ function ColorChanger() {
     }
     return (
         <div>
-            <h1 style={ { color } } >Hello, World!</h1>
+            <h2 style={ { color } } >Hello, World!</h2>
             <input type="text" value ={color} onChange={changeColor} />
             
         </div>

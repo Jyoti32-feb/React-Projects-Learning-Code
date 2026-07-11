@@ -6,9 +6,9 @@ const Counter = () => {
 
   return (
     <div>
-      <p>You clicked {count} times</p>
+      
 
-      <input type="text" value={count} onChange={(e) => setCount(Number(e.target.value))} />
+      <input type="text" value={count} onChange={(e) => setCount(Number(e.target.value))} /><br /><br />
 
       <button onClick={() => setCount(count + 1)}>
         Increment
@@ -16,6 +16,9 @@ const Counter = () => {
       <button onClick={() => setCount(count - 1)}>
         Decrement
       </button>
+
+      <p>You clicked {count} times</p>
+
 
     </div>
   )
