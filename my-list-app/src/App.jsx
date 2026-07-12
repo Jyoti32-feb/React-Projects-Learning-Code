@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Student from './Student'
 
 function App() {
   //  const[name , setname]=useState('');
@@ -31,13 +32,14 @@ function App() {
   return (
     
     <>
-      <h4>Name : <input type="text" name="name" value={employee.name} onChange={handleChange} /></h4>
+      {/* <h4>Name : <input type="text" name="name" value={employee.name} onChange={handleChange} /></h4>
       <h4>Role : <input type="text" name="role" value={employee.role} onChange={handleChange} /></h4>
       <h4>City : <input type="text" name="city" value={employee.city} onChange={handleChange} /></h4>
       <h3>Name : {employee.name}</h3>
       <h3>City : {employee.city}</h3>
       <h3>Role : {employee.role}</h3>
-      <h4>Total length of characters : {employee.name.length}</h4>
+      <h4>Total length of characters : {employee.name.length}</h4> */}
+      <Student />
     </>
   )
 }
