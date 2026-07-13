@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Student from './Student'
+import Employee from './Employee'
 
 function App() {
   //  const[name , setname]=useState('');
@@ -39,7 +40,8 @@ function App() {
       <h3>City : {employee.city}</h3>
       <h3>Role : {employee.role}</h3>
       <h4>Total length of characters : {employee.name.length}</h4> */}
-      <Student />
+      {/* <Student /> */}
+      <Employee/>
     </>
   )
 }
